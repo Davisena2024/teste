@@ -1,0 +1,77 @@
+p{
+    color:brown; 
+    background-color:yellow     
+}
+
+#paragrafo2 {
+    color: greenyellow;
+    /*background-color:transparent;*/
+}
+
+.fundo-azul {
+    background-color: rgba(255, 100, 0, 0);
+}
+
+.texto-amarelo {
+    color: #FF6400;
+}
+
+a {
+    color: rgb(255, 160, 0)
+}
+
+#para2 {
+    /* color: blue; */
+    color: green;
+    background-color:aqua;
+    text-decoration: underline;
+}
+
+.div1 {
+    width: 50vw;
+    height: 50vh;
+    /* background-color: rgb(240, 100, 0);
+    background-image: url('/Aula/Galeria/Imagens1/GOW.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right; */
+    background: rgb(240, 100, 0) 
+    url('/Aula/Galeria/Imagens1/Zero\ Two.jpg')
+    no-repeat top right;
+    /* background-size: cover; */
+}
+
+.para3 {
+    background-color:aquamarine;
+    background-image: url('/Aula/Galeria/Imagens1/HorizonZeroDawn.jpeg');
+    background-attachment: fixed;
+}
+
+body {
+    background-image: url('/Aula/Galeria/Imagens1/imgfundo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.verde {
+    height: 100px;
+    background: linear-gradient(90deg, yellow, 10%, red 80%, orange);
+    
+}
+
+#gow2018 {
+    width: 500px;
+}
+
+#azul {
+    background-color: blue;
+    width: 500px;
+    height: 250px;
+    font-size: 100px;
+}
+
+#foto {
+    height: 50%
+}
+

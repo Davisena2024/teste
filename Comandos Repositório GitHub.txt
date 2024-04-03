@@ -1,0 +1,31 @@
+COMANDOS PARA CRIAR REPOSITÓRIO NO GITHUB
+
+Abra o Git Bash:
+
+cd Desktop.
+
+cd (nome da pasta do Repositório = EntregaP1A3).
+
+code .    // abre a pasta selecionada no vs code
+
+ls        // lista os arquivos dentro da pasta
+
+git status   // lista os arquivos que não foram carregados para o repositório no GitHub (o arquivo fica vermelho).
+
+git add .  // Salva os arquivos para o repositório no GitHub.
+
+git status   // lista os arquivos que foram salvos para o repositório no GitHub (o arquivo fica verde).
+
+git commit -m " nome que quiser(breve mensagem)"
+
+git checkout -b nome do repositorio que não seja o principal(novos arquivos)
+
+git push origin novos arquivos (para mandar e carregar os arquivos no github para ficar disponível)git commit
+
+
+
+EXCLUIR COMMIT
+
+git log --pretty=oneline --abbrev-commit (mostra a quatidade de commit)
+
+git reabase -i HEAD~3   (usado para remover commit), (3 = quatidade de commit)

@@ -1,0 +1,43 @@
+.quadro {
+    width: 800px;
+    height: 400px;
+    border: 1px solid gray;
+    position: relative;
+}
+
+.quadrado {
+    /* display: inline-block; coloca um quadrado ao lado do outro */
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-red {
+    background-color: red;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.quadrado-blue {
+    background-color: blue;
+}
+
+.quadrado-green {
+    background-color: green;
+}
+
+.quadrado-yellow {
+    background-color: yellow;
+    position: fixed;
+}
+
+.quadrado-aqua {
+    background-color: aqua;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+
+.quadrado-orange {
+    background-color: orange;
+}

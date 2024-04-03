@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Básico</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/CSS/CSS_BASICO/style.css">
+
+    <style>
+        p {
+            color: brown;
+            background-color: aqua
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Página 1</h1>
+
+    <a href="/CSS/CSS_BASICO/csstest.html" target="_blank"> Link para página principal</a>
+    <br>
+
+    <p>O <b><I>Day Trade<sub>1</sub></I></b> é uma forma de <mark>operar na Bolsa</mark> de Valores conhecido
+        por sua <strong>rapidez e agilidade</strong>, porque é focado no curtíssimo prazo.
+        As operações nesta <small>modalidade</small> são iniciadas e encerradas no
+        mesmo <sub>pregão</sub>, sendo que <del>muitas delas</del><ins>50,9</ins>poucas delas chegam a durar apenas
+        alguns poucos minutos.</p>
+
+    <p id="para2">ser a melhor opção para aplicar seu dinheiro e crescer seu patrimônio. <br>
+        Porém, <mark>valor de um imóvel costuma ser alto</mark>, o que afasta a maioria das pessoas desse tipo de <br>
+        investimento. Além disso, esse processo é extremamente <br></p>
+
+    <h2>Minhas compras</h2>
+
+    <ul>
+        <li>Cadeira Gamer</li>
+        <li>Processador Ryzen 5600G</li>
+        <li>Placa Mãe</li>
+    </ul>
+
+    <h2>Atualização</h2>
+
+    <ol type="A" start="8"> <!--para inverter os numeros da lista use (reversed)-->
+        <li style="color:blueviolet">Comprar PS5 Pro</li>
+        <li>Fazer dinheiro para meu casamento</li>
+        <li>Estudar bolsa de valores e day trade</li>
+    </ol>
+
+    <h1>Lista de Contatos</h1>
+
+    <ul>
+        <li>
+            <b>Nome:</b> José Silva <br>
+            <b>Site:</b> <a href="https://nike.com.br" target="_blank">nike.com</a> <br>
+        </li>
+        <br>
+        <li>
+            <b>Nome:</b> Eduardo da Silva <br>
+            <b>Tel:</b><a href="tel:+5571922556633"> +5571922556633</a>
+        </li>
+        <br>
+        <li>
+            <b>Nome:</b> Samuel Moura <br>
+            <b>Whatsapp</b><a href="https://wa.me/5571965432109" target="_blank"> +5571965432109</a> <br>
+        </li>
+        <br>
+        <li>
+            <b>Nome: </b> Davi sena <br>
+            <b>Instagram: </b><a href="https://instagram.com/davisenab_" target="_blank"> @daviSenab_</a><br>
+            <b>Instagram app:</b><a href="instagram://user?username=davisenab_">davisenab_</a>
+        </li>
+        <br>
+        <li>
+            <b>Nome:</b> Breno Reis<br>
+            <b>Email:</b><a href="mailto:brenoreis800@gmail.com"> brenoreis800@gmail.com</a> <br>
+        </li>
+
+    </ul>
+
+    <form>
+        <input type="text" list="browsers" name="favorite_bowser">
+        <datalist id="browsers">
+
+            <option value="Firefox">Firefo</option>
+            <option value="Chrome">
+            <option value="Internet">
+            <option value="Safari">
+
+        </datalist>
+    </form>
+
+    <form>
+        <div>
+            <label for="nome"> Nome:</label>
+            <input type="text" id="nome"/>
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" />
+        </div>
+        <br>
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="profissao">Profissão:</label>
+            <select id="profissao">
+                <option>Programador</option>
+                <option>Professor</option>
+                <option>Pesquisador</option>
+                <option>Outros</option>
+            </select>
+        </div>
+        <br>
+        <details>Experimento<br>Não sei<br>Saiba mais
+            <summary>Informações</summary>
+            <p>Utilizando para informações adicionais</p>
+        </details>
+        <br>
+        <button type="submit">Enviar</button>
+
+        <form action="mailto:meu-email@gmail.com"></form>
+    </form>
+
+    <p style="color:blueviolet">O processador é o grande responsável por transformar dados em informações, como
+        carregar páginas e fazer downloads.</p>
+    <p>A velocidade na qual seu
+        sistema executa programas, é, em parte, responsabilidade do processador.</p>
+
+    <img src="https://conteudos.xpi.com.br/wp-content/uploads/2022/12/candlestick-destaque.jpg" width="200"
+        height="200">
+    <br>
+    <img src="/CSS/CSS_BASICO/Galeria/GOW.jpg" width="300" height="200">
+
+    <figure>
+        <img alt="Zero Two" src="/CSS/CSS_BASICO/Galeria/Zero Two.jpg" width="295" height="300">
+        <figcaption>Legenda da foto</figcaption>
+    </figure>
+
+</body>
+
+</html>
